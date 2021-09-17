@@ -82,6 +82,13 @@ table {
     border-collapse:collapse;
     border-spacing:0;
 }
+input[name=btn_logout] {
+	margin-top: 40px;
+	background-color: #666;
+}
+input[name=btn_logout]:hover {
+	background-color: #777;
+}
 
 hr {
     display:block;
@@ -141,8 +148,8 @@ label {
     margin-bottom: 7px;
     font-size: 86%;
 }
-input[type="password"],
 input[type="text"],
+input[type="password"],
 textarea {
 	margin-bottom: 20px;
 	padding: 10px;
@@ -153,7 +160,7 @@ textarea {
 }
 
 input[type="text"],
-input[type="password"] {
+input[type="password"],
 	width: 200px;
 }
 textarea {
@@ -205,6 +212,25 @@ hr {
     font-size: 86%;
     line-height: 1.6em;
 }
+.btn_cancel {
+	display: inline-block;
+	margin-right: 10px;
+	padding: 10px 20px;
+	color: #555;
+	font-size: 86%;
+	border-radius: 5px;
+	border: 1px solid #999;
+}
+.btn_cancel:hover {
+	color: #999;
+	border-color: #999;
+	text-decoration: none;
+}
+.text-confirm {
+	margin-bottom: 20px;
+	font-size: 86%;
+	line-height: 1.6em;
+}
 
 
 /*-----------------------------------
@@ -247,6 +273,11 @@ article.reply::before {
 		color: #999;
 		line-height: 1.6em;
 		font-size: 72%;
+	}
+    .info p {
+		display: inline-block;
+		line-height: 1.6em;
+		font-size: 86%;
 	}
     article p {
         color: #555;
